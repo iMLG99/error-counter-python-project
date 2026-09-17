@@ -1,0 +1,7 @@
+Sep 17 13:45:02 ubuntu-server systemd[1]: Starting Periodic Command Scheduler...
+Sep 17 13:45:02 ubuntu-server cron[1024]: (CRON) INFO (pidfile fd = 3)
+Sep 17 13:47:19 ubuntu-server kernel: [  412.894102] ext4_lookup: deleted inode referenced: 12583002
+Sep 17 13:50:55 ubuntu-server sshd[31054]: Invalid user ubuntu from 203.0.113.5 port 54822
+Sep 17 13:50:58 ubuntu-server sshd[31054]: Connection closed by authenticating user ubuntu 203.0.113.5 port 54822 [preauth]
+Sep 17 13:55:01 ubuntu-server systemd[1]: snapd.service: Watchdog timeout (limit 3min)!
+Sep 17 13:55:01 ubuntu-server systemd[1]: snapd.service: Failed with result 'watchdog'.

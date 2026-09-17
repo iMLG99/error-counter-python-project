@@ -1,0 +1,2 @@
+{"timestamp":"2026-09-17T13:24:01.442Z","level":"ERROR","service":"payment-gateway","trace_id":"1a2b3c4d5e6f","message":"Transaction processing failed","error":{"code":"PAYMENT_DENIED","details":"Insufficient funds in user account","processor":"Stripe"}}
+{"timestamp":"2026-09-17T13:24:05.109Z","level":"CRITICAL","service":"auth-service","trace_id":"9f8e7d6c5b4a","message":"Redis cache connection timeout","error":{"code":"ECONNREFUSED","host":"10.0.4.12","port":6379}}

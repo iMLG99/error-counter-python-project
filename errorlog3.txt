@@ -1,0 +1,10 @@
+2026-09-17 14:02:11,382 [main] INFO  com.example.service.UserService - Initializing database pool connection...
+2026-09-17 14:02:12,105 [main] INFO  com.example.service.UserService - Connection successfully established with PostgreSQL database.
+2026-09-17 14:05:34,891 [http-nio-8080-exec-3] WARN  com.example.controller.AuthController - Failed login attempt for user 'admin_test' from IP 198.51.100.12
+2026-09-17 14:10:03,514 [http-nio-8080-exec-7] ERROR com.example.repository.OrderRepository - Failed to fetch order summary for OrderID: 99481
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+    at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112) ~[hibernate-core-6.2.jar:6.2.0.Final]
+    at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:123) ~[hibernate-core-6.2.jar:6.2.0.Final]
+    Caused by: java.sql.SQLTimeoutException: The connection attempt timed out.
+    at org.postgresql.Driver$ConnectThread.getResult(Driver.java:421) ~[postgresql-42.5.1.jar:42.5.1]
+2026-09-17 14:10:04,002 [http-nio-8080-exec-7] FATAL com.example.Application - System memory critically low. Initiating safety shutdown sequence.
